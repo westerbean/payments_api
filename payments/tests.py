@@ -5,8 +5,8 @@ class PaymentAPITest(TestCase):
     def test_payment(self):
         client = APIClient()
         data = {
-            "name": "Jane Doe",
-            "email": "jane@example.com",
+            "name": "Femi Kayode",
+            "email": "femiky@gmail.com",
             "amount": "1000",
             "gateway": "paystack"
         }
