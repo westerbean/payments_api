@@ -25,7 +25,14 @@ SECRET_KEY = 'django-insecure-u%z6sm5**rzn_@8#&j7-dl8z^^0$2phe@3)m9ax$48x^-$@feq
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+import os
+
+ALLOWED_HOSTS = [
+    "localhost",
+    "127.0.0.1",
+    "payments-api-izef.onrender.com",
+]
+
 
 
 # Application definition
