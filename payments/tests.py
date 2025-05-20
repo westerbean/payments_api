@@ -10,5 +10,5 @@ class PaymentAPITest(TestCase):
             "amount": "1000",
             "gateway": "paystack"
         }
-        response = client.post("/api/v1/payment/", data, format='json')
+        response = client.post("/api/v1/payments", data, format='json')
         self.assertEqual(response.status_code, 200)
